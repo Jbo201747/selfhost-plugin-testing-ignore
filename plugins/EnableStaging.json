@@ -1,0 +1,6 @@
+{
+	"name": "EnableStaging",
+	"description": "Set isDeveloper to true. Enabling experiments.",
+	"author": "Zoey",
+	"version": "1.0.4"
+}

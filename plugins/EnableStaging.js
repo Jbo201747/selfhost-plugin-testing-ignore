@@ -1,0 +1,1 @@
+var t=require("enmity-api/modules");function i(r){window.enmity.plugins.registerPlugin(r)}const e=t.getByProps("isDeveloper");i({name:"EnableStaging",onStart(){Object.defineProperty(e,"isDeveloper",{get:()=>!0,set:()=>{},configurable:!0})},onStop(){Object.defineProperty(e,"isDeveloper",{get:()=>!1,set:()=>{},configurable:!0})}});
